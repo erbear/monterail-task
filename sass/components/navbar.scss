@@ -1,0 +1,74 @@
+@import "../globals/colors";
+@import "compass";
+// ul.nav {
+//   	list-style: none;
+//   	padding-left: 19px;
+//   	height: 100%;
+// 	li.nav__item{
+// 		display:inline-block;
+// 		height: 100%;
+// 		position:relative;
+// 		a{
+// 			display: block;
+// 			@include border-top-radius(4px);
+// 			font-family: 'Open Sans', sans-serif;
+// 			height: 33px;
+// 			text-align: center;
+// 			padding: 8px 15px 0px 15px;
+// 			font-size: 14px;
+// 			text-decoration: none;
+// 			color: $nav-font;
+// 			&:hover{
+// 				color: $nav-font-hover;
+// 			}
+// 		}
+		// &.active a {
+		// 	background-color: $nav-active-button;
+		// }
+// // 	}
+// 	&.nav--bottom-align li.nav__item a{
+// 		position: relative;
+// 		bottom: -27px;
+// 		z-index: 2;
+// 	}
+// 	&.nav__item--custom-height  a{}
+// }
+$nav-padding-left:19px;
+
+ul.nav {
+  	list-style: none;
+  	padding-left: 19px;
+  	height: 100%;
+	li.nav__item{
+		display:inline-block;
+		position:relative;
+		top: 30%;
+		a{
+			display: block;
+			font-family: 'Open Sans', sans-serif;
+			text-align: center;
+			font-size: 14px;
+			text-decoration: none;
+			color: $nav-font;
+			&:hover{
+				color: $nav-font-hover;
+			}
+		}
+		&.active a {
+			background-color: $nav-active-button;
+		}
+	}
+	
+	//custom styles
+	&.nav--custom li.nav__item {
+		height: 100%;
+		top: 0;
+	}
+	&.nav--custom li.nav__item a{
+		position: relative;
+		bottom: -27px;
+		z-index: 2;
+		height: 33px;
+		padding: 8px 15px 0px 15px;
+	}
+}

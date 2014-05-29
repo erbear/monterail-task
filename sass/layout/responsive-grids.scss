@@ -1,0 +1,23 @@
+//grids
+$grid: g;
+$offset: o;
+$grids: 12;
+$gutter: (1/48)*100%;
+@for $i from 1 through 12 {
+	.#{$grid}#{$i}{
+		width: ($i/12)*100%-(2*$gutter); 
+		display: inline-block;
+		padding: 0 $gutter;
+		vertical-align: top;
+		&.#{$grid}--clear {
+			padding: 0;
+			width: ($i/12)*100%;
+		}
+	}
+
+}
+@for $i from 1 through 12 {
+	.#{$offset}#{$i}{
+		margin-left: ($i/12)*100%;
+	}
+}

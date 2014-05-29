@@ -1,0 +1,15 @@
+/* line 3, ../../sass/globals/globals.scss */
+body {
+  background-color: whitesmoke;
+}
+
+/* line 7, ../../sass/globals/globals.scss */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 11, ../../sass/globals/globals.scss */
+ul li {
+  list-style: none;
+}
