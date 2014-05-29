@@ -13,3 +13,23 @@ ul {
 ul li {
   list-style: none;
 }
+
+/* line 15, ../../sass/globals/globals.scss */
+.img-thumbnail {
+  padding: 4px;
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: #aaaaaa 0px 0px 10px;
+  -moz-box-shadow: #aaaaaa 0px 0px 10px;
+  box-shadow: #aaaaaa 0px 0px 10px;
+}
+
+/* line 21, ../../sass/globals/globals.scss */
+a {
+  color: #000;
+  text-decoration: none;
+}

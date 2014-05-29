@@ -17,14 +17,19 @@
   border: 1px solid #dadada;
   border-bottom: 0;
 }
-/* line 23, ../../sass/layout/content.scss */
+/* line 17, ../../sass/layout/content.scss */
+.content .content__main {
+  border: 1px solid #dadada;
+  border-top: 0;
+}
+/* line 24, ../../sass/layout/content.scss */
 .content .content__header--top-border:before {
   content: " ";
   width: 100%;
   display: block;
   border-top: 1px solid #fafafa;
 }
-/* line 29, ../../sass/layout/content.scss */
+/* line 30, ../../sass/layout/content.scss */
 .content .separator:after {
   position: absolute;
   content: " ";
@@ -34,4 +39,5 @@
   padding: 0 1px;
   left: -1px;
   border-bottom: 3px solid #486a7c;
+  z-index: 10;
 }

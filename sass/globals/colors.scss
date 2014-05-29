@@ -12,9 +12,15 @@ $sidebar-header-font: #313132;
 $sidebar-background: #f0f0f0;
 
 //conversation
+$conversation-header-font: #999999; 
+$conversation-time-font: $conversation-header-font; 
 $conversation-font: #006699; 
 $conversation-time-font: #a9a9a9;
 $conversation-bottom-border: #e5e5e5;
+$conversation-icon: #e5e5e5;
+$conversation-object-font: $conversation-font; 
+$conversation-person-font: $sidebar-header-font; 
+
 
 //nav
 $nav-font: #313132;
@@ -22,5 +28,10 @@ $nav-font-hover: #d11344;
 $nav-active-button: #ffffff;
 
 //badge
-$badge-background: #236282; 
-$badge-font: #dce4e8; 
+$badge-counter-background: #236282;
+$badge-counter-font: #dce4e8;
+$badge-unchecked-background: #b5b6b8;
+$badge-checked-background: #f6ba90;
+
+
+$img-thumbnail-border:#d4d4d4;

@@ -14,8 +14,9 @@ $header-height: 66px;
 		border: 1px solid $content-border;
 		border-bottom: 0;
 	}
-	.content_main{
-		
+	.content__main{
+		border: 1px solid $content-border;
+		border-top: 0;
 	}
 
 
@@ -35,5 +36,6 @@ $header-height: 66px;
 	    padding: 0 1px;
 	    left: -1px;
 	    border-bottom: 3px solid #486a7c;
+	    z-index: 10;
 	}
 }

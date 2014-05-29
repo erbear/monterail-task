@@ -20,6 +20,26 @@ ul li {
   list-style: none;
 }
 
+/* line 15, ../sass/globals/globals.scss */
+.img-thumbnail {
+  padding: 4px;
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: #aaaaaa 0px 0px 10px;
+  -moz-box-shadow: #aaaaaa 0px 0px 10px;
+  box-shadow: #aaaaaa 0px 0px 10px;
+}
+
+/* line 21, ../sass/globals/globals.scss */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 /* line 7, ../sass/layout/responsive-grids.scss */
 .g1 {
   width: 4.16667%;
@@ -265,14 +285,19 @@ ul li {
   border: 1px solid #dadada;
   border-bottom: 0;
 }
-/* line 23, ../sass/layout/content.scss */
+/* line 17, ../sass/layout/content.scss */
+.content .content__main {
+  border: 1px solid #dadada;
+  border-top: 0;
+}
+/* line 24, ../sass/layout/content.scss */
 .content .content__header--top-border:before {
   content: " ";
   width: 100%;
   display: block;
   border-top: 1px solid #fafafa;
 }
-/* line 29, ../sass/layout/content.scss */
+/* line 30, ../sass/layout/content.scss */
 .content .separator:after {
   position: absolute;
   content: " ";
@@ -282,26 +307,27 @@ ul li {
   padding: 0 1px;
   left: -1px;
   border-bottom: 3px solid #486a7c;
+  z-index: 10;
 }
 
 /* line 38, ../sass/components/navbar.scss */
 ul.nav {
   list-style: none;
-  padding-left: 19px;
   height: 100%;
 }
-/* line 42, ../sass/components/navbar.scss */
+/* line 41, ../sass/components/navbar.scss */
 ul.nav li.nav__item {
   display: inline-block;
   position: relative;
   top: 30%;
 }
-/* line 46, ../sass/components/navbar.scss */
+/* line 45, ../sass/components/navbar.scss */
 ul.nav li.nav__item a {
   display: block;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 14px;
+  font-weight: bold;
   text-decoration: none;
   color: #313132;
 }
@@ -320,9 +346,111 @@ ul.nav.nav--custom li.nav__item {
 }
 /* line 67, ../sass/components/navbar.scss */
 ul.nav.nav--custom li.nav__item a {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
   position: relative;
   bottom: -27px;
-  z-index: 2;
+  z-index: 99;
   height: 33px;
   padding: 8px 15px 0px 15px;
+}
+
+/* line 5, ../sass/components/conversation.scss */
+.conversation {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/* line 8, ../sass/components/conversation.scss */
+.conversation p.conversation__header, .conversation p.conversation__footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #999999;
+}
+/* line 13, ../sass/components/conversation.scss */
+.conversation li.conversation__item {
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+/* line 17, ../sass/components/conversation.scss */
+.conversation li.conversation__item:last-child {
+  border-bottom: 0;
+}
+/* line 19, ../sass/components/conversation.scss */
+.conversation li.conversation__item:last-child img, .conversation li.conversation__item:last-child i {
+  visibility: hidden;
+}
+/* line 23, ../sass/components/conversation.scss */
+.conversation li.conversation__item img, .conversation li.conversation__item i, .conversation li.conversation__item span {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 27, ../sass/components/conversation.scss */
+.conversation li.conversation__item i {
+  padding: 20px;
+  color: #e5e5e5;
+}
+/* line 31, ../sass/components/conversation.scss */
+.conversation li.conversation__item span {
+  position: relative;
+  top: -13px;
+  font-size: 13px;
+}
+/* line 35, ../sass/components/conversation.scss */
+.conversation li.conversation__item span p {
+  color: darkgrey;
+  font-size: 12px;
+  margin: 5px 0;
+}
+/* line 40, ../sass/components/conversation.scss */
+.conversation li.conversation__item span a.object {
+  color: #006699;
+  font-weight: bold;
+}
+/* line 44, ../sass/components/conversation.scss */
+.conversation li.conversation__item span a.person {
+  color: #313132;
+  font-weight: bold;
+}
+
+/* line 16, ../sass/components/badges.scss */
+.badge--unchecked {
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset -1px 1px 4px #999999;
+  -moz-box-shadow: inset -1px 1px 4px #999999;
+  box-shadow: inset -1px 1px 4px #999999;
+  text-shadow: 1px 1px 3px #aaaaaa;
+  font-size: 11px;
+  padding: 2px 6px;
+  color: #fff;
+  background-color: #b5b6b8;
+  font-weight: bold;
+}
+
+/* line 19, ../sass/components/badges.scss */
+.badge--checked {
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset -1px 1px 4px #999999;
+  -moz-box-shadow: inset -1px 1px 4px #999999;
+  box-shadow: inset -1px 1px 4px #999999;
+  text-shadow: 1px 1px 3px #aaaaaa;
+  font-size: 11px;
+  padding: 2px 6px;
+  color: #fff;
+  background-color: #f6ba90;
+  font-weight: bold;
 }

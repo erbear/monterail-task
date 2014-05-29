@@ -1,5 +1,43 @@
-/* Welcome to Compass. Use this file to write IE specific override styles.
- * Import this file using the following HTML or equivalent:
- * <!--[if IE]>
- *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
- * <![endif]--> */
+/* line 6, ../sass/layout/content.scss */
+.content {
+  background-color: white;
+}
+/* line 8, ../sass/layout/content.scss */
+.content > div {
+  position: relative;
+}
+/* line 11, ../sass/layout/content.scss */
+.content .content__header {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f5f5), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(#f5f5f5, #eeeeee);
+  background-image: -moz-linear-gradient(#f5f5f5, #eeeeee);
+  background-image: -o-linear-gradient(#f5f5f5, #eeeeee);
+  background-image: linear-gradient(#f5f5f5, #eeeeee);
+  height: 66px;
+  border: 1px solid #dadada;
+  border-bottom: 0;
+}
+/* line 17, ../sass/layout/content.scss */
+.content .content__main {
+  border: 1px solid #dadada;
+  border-top: 0;
+}
+/* line 24, ../sass/layout/content.scss */
+.content .content__header--top-border:before {
+  content: " ";
+  width: 100%;
+  display: block;
+  border-top: 1px solid #fafafa;
+}
+/* line 30, ../sass/layout/content.scss */
+.content .separator:after {
+  position: absolute;
+  content: " ";
+  top: 100%;
+  width: 100%;
+  display: block;
+  padding: 0 1px;
+  left: -1px;
+  border-bottom: 3px solid #486a7c;
+  z-index: 10;
+}

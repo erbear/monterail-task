@@ -1,0 +1,52 @@
+@import "../globals/colors";
+
+$padding-left: 10px;
+
+.conversation{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	p.conversation__header, p.conversation__footer{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+		color: $conversation-header-font;
+	}
+	li.conversation__item {
+		border-bottom: 1px solid $conversation-bottom-border;
+		padding-top: 13px;
+		padding-bottom: 13px;
+		&:last-child{
+			border-bottom: 0;
+			img,i{
+				visibility: hidden;
+			}
+		}
+		img, i, span {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		i{
+			padding: 20px;
+			color: $conversation-icon;
+		}
+		span{
+			position: relative;
+			top: -13px;
+			font-size: 13px;
+			p{
+				color: $conversation-time-font;
+				font-size: 12px;
+				margin: 5px 0 ;
+			}
+			a.object{
+				color: $conversation-object-font;
+				font-weight: bold;
+			}
+			a.person{
+				color: $conversation-person-font;
+				font-weight: bold;
+			}
+			
+		}
+	}
+
+}

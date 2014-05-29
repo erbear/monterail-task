@@ -1,5 +1,5 @@
 @import "colors";
-
+@import "compass";
 body {
 	background-color: $body-background;
 }
@@ -11,4 +11,14 @@ ul{
 	li {
 		list-style: none;
 	}
+}
+.img-thumbnail{
+	padding: 4px;
+	border: 1px solid $img-thumbnail-border;
+	@include border-radius(4px);
+	@include box-shadow(#aaaaaa 0px 0px 10px);
+}
+a{
+	color:#000;
+	text-decoration: none;
 }
