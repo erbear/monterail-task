@@ -10,6 +10,8 @@ $header-second-top-border: #fafafa;
 //sidebar
 $sidebar-header-font: #313132;
 $sidebar-background: #f0f0f0;
+$sidebar-image-top-border: $content-border;
+$sidebar-image-bottom-border: $page-border;
 
 //conversation
 $conversation-header-font: #999999; 
@@ -28,10 +30,12 @@ $nav-font-hover: #d11344;
 $nav-active-button: #ffffff;
 
 //badge
-$badge-counter-background: #236282;
-$badge-counter-font: #dce4e8;
+$badge-counter-font:#236282;
+//$badge-counter-background: #236282;
+$badge-counter-background: #dce4e8;
 $badge-unchecked-background: #b5b6b8;
 $badge-checked-background: #f6ba90;
 
 
 $img-thumbnail-border:#d4d4d4;
+$separator: #486a7c;

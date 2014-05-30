@@ -1,15 +1,30 @@
 //grids
-$grid: g;
+$fluid-grid: flg;
+$fixed-grid: fxg;
 $offset: o;
 $grids: 12;
-$gutter: (1/48)*100%;
+$gutter-fluid: (1/48)*100%;
+$gutter-fixed: 20px;
 @for $i from 1 through 12 {
-	.#{$grid}#{$i}{
-		width: ($i/12)*100%-(2*$gutter); 
+	.#{$fixed-grid}#{$i}{
+		width: ($i/12)*960px-(2*$gutter-fixed); 
 		display: inline-block;
-		padding: 0 $gutter;
+		padding: 0 $gutter-fixed;
 		vertical-align: top;
-		&.#{$grid}--clear {
+		&.#{$fixed-grid}--clear {
+			padding: 0;
+			width: ($i/12)*960px;
+		}
+	}
+
+}
+@for $i from 1 through 12 {
+	.#{$fluid-grid}#{$i}{
+		width: ($i/12)*100%-(2*$gutter-fluid); 
+		display: inline-block;
+		padding: 0 $gutter-fluid;
+		vertical-align: top;
+		&.#{$fluid-grid}--clear {
 			padding: 0;
 			width: ($i/12)*100%;
 		}
