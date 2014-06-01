@@ -1,8 +1,14 @@
-/* line 7, ../../sass/layout/content.scss */
+/* line 6, ../../sass/layout/content.scss */
+.layout {
+  background-color: #f0f0f0;
+  overflow: auto;
+}
+
+/* line 10, ../../sass/layout/content.scss */
 .content {
   background-color: white;
 }
-/* line 9, ../../sass/layout/content.scss */
+/* line 12, ../../sass/layout/content.scss */
 .content .content__header {
   height: 66px;
   position: relative;
@@ -13,19 +19,19 @@
   background-image: -o-linear-gradient(#f5f5f5, #eeeeee);
   background-image: linear-gradient(#f5f5f5, #eeeeee);
 }
-/* line 15, ../../sass/layout/content.scss */
+/* line 18, ../../sass/layout/content.scss */
 .content .content__header--top-border:before {
   content: " ";
   width: 100%;
   display: block;
   border-top: 1px solid #fafafa;
 }
-/* line 21, ../../sass/layout/content.scss */
+/* line 24, ../../sass/layout/content.scss */
 .content .content__main {
   border: 1px solid #dadada;
   border-top: 0;
 }
-/* line 28, ../../sass/layout/content.scss */
+/* line 31, ../../sass/layout/content.scss */
 .content .content__header--top-border:before {
   content: " ";
   width: 100%;
@@ -33,7 +39,7 @@
   border-top: 1px solid #fafafa;
 }
 
-/* line 36, ../../sass/layout/content.scss */
+/* line 39, ../../sass/layout/content.scss */
 .separator:after, .separator--custom:after {
   position: absolute;
   content: " ";
@@ -42,5 +48,11 @@
   display: block;
   border-bottom: 3px solid #486a7c;
   z-index: 10;
-  left: 0px;
+}
+
+/* line 48, ../../sass/layout/content.scss */
+.separator--custom:after {
+  margin-top: 1px;
+  left: -1px;
+  padding: 0 1px;
 }

@@ -3,7 +3,10 @@
 
 $header-height: 66px;
 
-
+.layout{
+	background-color:  $sidebar-background;
+	overflow: auto;
+}
 .content {
 	background-color: $content-background;
 	.content__header{
@@ -41,8 +44,10 @@ $header-height: 66px;
     display:block;
     border-bottom: 3px solid $separator;
     z-index: 10;
-    left: 0px;
 }
 .separator--custom:after {
 	@extend .separator;
+    margin-top: 1px;
+    left: -1px;
+    padding: 0 1px;
 }
