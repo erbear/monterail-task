@@ -1,10 +1,5 @@
 /* line 3, ../../sass/layout/layout.scss */
 .page {
-  max-width: 960px;
-  margin: 18px auto;
-  padding: 0;
-  display: block;
-  height: auto;
   background-color: #f0f0f0;
   font-family: 'Open Sans', sans-serif;
 }

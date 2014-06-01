@@ -9,11 +9,13 @@ $padding-left: 10px;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 12px;
 		color: $conversation-header-font;
+		width: 100%;
 	}
 	li.conversation__item {
 		border-bottom: 1px solid $conversation-bottom-border;
 		padding-top: 13px;
 		padding-bottom: 13px;
+		width: 100%;
 		&:last-child{
 			border-bottom: 0;
 			img,i{

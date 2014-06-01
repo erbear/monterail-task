@@ -1,43 +1,46 @@
-/* line 6, ../../sass/layout/content.scss */
+/* line 7, ../../sass/layout/content.scss */
 .content {
   background-color: white;
 }
-/* line 8, ../../sass/layout/content.scss */
-.content > div {
-  position: relative;
-}
-/* line 11, ../../sass/layout/content.scss */
+/* line 9, ../../sass/layout/content.scss */
 .content .content__header {
+  height: 66px;
+  position: relative;
+  border: 1px solid #dadada;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f5f5), color-stop(100%, #eeeeee));
   background-image: -webkit-linear-gradient(#f5f5f5, #eeeeee);
   background-image: -moz-linear-gradient(#f5f5f5, #eeeeee);
   background-image: -o-linear-gradient(#f5f5f5, #eeeeee);
   background-image: linear-gradient(#f5f5f5, #eeeeee);
-  height: 66px;
-  border: 1px solid #dadada;
-  border-bottom: 0;
 }
-/* line 17, ../../sass/layout/content.scss */
-.content .content__main {
-  border: 1px solid #dadada;
-  border-top: 0;
-}
-/* line 24, ../../sass/layout/content.scss */
+/* line 15, ../../sass/layout/content.scss */
 .content .content__header--top-border:before {
   content: " ";
   width: 100%;
   display: block;
   border-top: 1px solid #fafafa;
 }
-/* line 30, ../../sass/layout/content.scss */
-.content .separator:after {
+/* line 21, ../../sass/layout/content.scss */
+.content .content__main {
+  border: 1px solid #dadada;
+  border-top: 0;
+}
+/* line 28, ../../sass/layout/content.scss */
+.content .content__header--top-border:before {
+  content: " ";
+  width: 100%;
+  display: block;
+  border-top: 1px solid #fafafa;
+}
+
+/* line 36, ../../sass/layout/content.scss */
+.separator:after, .separator--custom:after {
   position: absolute;
   content: " ";
   top: 100%;
   width: 100%;
   display: block;
-  padding: 0 1px;
-  left: -1px;
   border-bottom: 3px solid #486a7c;
   z-index: 10;
+  left: 0px;
 }

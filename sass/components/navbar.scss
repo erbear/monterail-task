@@ -38,6 +38,7 @@ $nav-padding-left:19px;
 ul.nav {
   	list-style: none;
   	height: 100%;
+  	width: 100%;
 	li.nav__item{
 		display:inline-block;
 		position:relative;
@@ -67,7 +68,7 @@ ul.nav {
 	&.nav--custom li.nav__item a{
 		@include border-top-radius(4px);
 		position: relative;
-		bottom: -27px;
+		bottom: -29px;
 		z-index: 99;
 		height: 33px;
 		padding: 8px 15px 0px 15px;

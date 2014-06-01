@@ -1,20 +1,21 @@
 /* line 3, ../../sass/globals/globals.scss */
 body {
   background-color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* line 7, ../../sass/globals/globals.scss */
+/* line 8, ../../sass/globals/globals.scss */
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 11, ../../sass/globals/globals.scss */
+/* line 12, ../../sass/globals/globals.scss */
 ul li {
   list-style: none;
 }
 
-/* line 15, ../../sass/globals/globals.scss */
+/* line 16, ../../sass/globals/globals.scss */
 .img-thumbnail {
   padding: 4px;
   border: 1px solid #d4d4d4;
@@ -28,7 +29,7 @@ ul li {
   box-shadow: #aaaaaa 0px 0px 10px;
 }
 
-/* line 21, ../../sass/globals/globals.scss */
+/* line 22, ../../sass/globals/globals.scss */
 a {
   color: #000;
   text-decoration: none;
