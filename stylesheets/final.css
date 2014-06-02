@@ -41,223 +41,223 @@ a {
   text-decoration: none;
 }
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g1 {
   width: 80px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g1.g--clear {
-  padding: 0;
-  width: 80px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g1 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 38px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g1.g--clear {
+  padding: 0;
+  width: 80px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g2 {
   width: 160px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g2.g--clear {
-  padding: 0;
-  width: 160px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g2 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 118px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g2.g--clear {
+  padding: 0;
+  width: 160px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g3 {
   width: 240px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g3.g--clear {
-  padding: 0;
-  width: 240px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g3 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 198px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g3.g--clear {
+  padding: 0;
+  width: 240px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g4 {
   width: 320px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g4.g--clear {
-  padding: 0;
-  width: 320px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g4 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 278px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g4.g--clear {
+  padding: 0;
+  width: 320px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g5 {
   width: 400px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g5.g--clear {
-  padding: 0;
-  width: 400px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g5 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 358px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g5.g--clear {
+  padding: 0;
+  width: 400px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g6 {
   width: 480px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g6.g--clear {
-  padding: 0;
-  width: 480px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g6 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 438px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g6.g--clear {
+  padding: 0;
+  width: 480px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g7 {
   width: 560px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g7.g--clear {
-  padding: 0;
-  width: 560px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g7 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 518px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g7.g--clear {
+  padding: 0;
+  width: 560px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g8 {
   width: 640px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g8.g--clear {
-  padding: 0;
-  width: 640px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g8 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 598px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g8.g--clear {
+  padding: 0;
+  width: 640px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g9 {
   width: 720px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g9.g--clear {
-  padding: 0;
-  width: 720px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g9 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 678px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g9.g--clear {
+  padding: 0;
+  width: 720px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g10 {
   width: 800px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g10.g--clear {
-  padding: 0;
-  width: 800px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g10 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 758px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g10.g--clear {
+  padding: 0;
+  width: 800px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g11 {
   width: 880px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g11.g--clear {
-  padding: 0;
-  width: 880px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g11 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 838px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g11.g--clear {
+  padding: 0;
+  width: 880px;
+}
 
-/* line 9, ../sass/layout/responsive-grids.scss */
+/* line 11, ../sass/layout/responsive-grids.scss */
 .g12 {
   width: 960px;
   display: block;
   float: left;
 }
-/* line 13, ../sass/layout/responsive-grids.scss */
-.g12.g--clear {
-  padding: 0;
-  width: 960px;
-}
-/* line 17, ../sass/layout/responsive-grids.scss */
+/* line 16, ../sass/layout/responsive-grids.scss */
 .g12 .g__content {
   padding-left: 20px;
   padding-right: 20px;
   width: 918px;
 }
+/* line 22, ../sass/layout/responsive-grids.scss */
+.g12.g--clear {
+  padding: 0;
+  width: 960px;
+}
 
-/* line 24, ../sass/layout/responsive-grids.scss */
+/* line 28, ../sass/layout/responsive-grids.scss */
 .layout {
   max-width: 960px;
   margin: 18px auto;
@@ -266,6 +266,211 @@ a {
   height: auto;
 }
 
+@media only screen and (max-width: 959px) {
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g1 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g1 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g1.g--clear {
+    padding: 0;
+    width: 80px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g2 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g2 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g2.g--clear {
+    padding: 0;
+    width: 160px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g3 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g3 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g3.g--clear {
+    padding: 0;
+    width: 240px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g4 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g4 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g4.g--clear {
+    padding: 0;
+    width: 320px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g5 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g5 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g5.g--clear {
+    padding: 0;
+    width: 400px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g6 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g6 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g6.g--clear {
+    padding: 0;
+    width: 480px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g7 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g7 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g7.g--clear {
+    padding: 0;
+    width: 560px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g8 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g8 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g8.g--clear {
+    padding: 0;
+    width: 640px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g9 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g9 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g9.g--clear {
+    padding: 0;
+    width: 720px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g10 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g10 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g10.g--clear {
+    padding: 0;
+    width: 800px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g11 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g11 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g11.g--clear {
+    padding: 0;
+    width: 880px;
+  }
+
+  /* line 37, ../sass/layout/responsive-grids.scss */
+  .g12 {
+    width: 100%;
+    clear: both;
+  }
+  /* line 40, ../sass/layout/responsive-grids.scss */
+  .g12 .g__content {
+    padding-left: 2.08333%;
+    padding-right: 2.08333%;
+    width: 95.83333%;
+  }
+  /* line 46, ../sass/layout/responsive-grids.scss */
+  .g12.g--clear {
+    padding: 0;
+    width: 960px;
+  }
+}
 /* line 3, ../sass/layout/layout.scss */
 .page {
   background-color: #f0f0f0;
@@ -414,18 +619,18 @@ ul.nav.nav--custom li.nav__item a {
   padding: 8px 15px 0px 15px;
 }
 
-/* line 56, ../sass/components/conversation.scss */
+/* line 4, ../sass/components/conversation.scss */
 .conversation {
   padding: 20px 0;
 }
-/* line 58, ../sass/components/conversation.scss */
+/* line 6, ../sass/components/conversation.scss */
 .conversation > header {
   margin: 30px 0;
   font-size: 12px;
   color: #999999;
   width: 100%;
 }
-/* line 64, ../sass/components/conversation.scss */
+/* line 12, ../sass/components/conversation.scss */
 .conversation > footer {
   margin-left: 23.33333%;
   font-size: 12px;
@@ -433,22 +638,22 @@ ul.nav.nav--custom li.nav__item a {
   padding-top: 13px;
   padding-left: 2%;
 }
-/* line 71, ../sass/components/conversation.scss */
+/* line 19, ../sass/components/conversation.scss */
 .conversation .conversation__item {
   padding: 15px 10px 10px 10px;
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 74, ../sass/components/conversation.scss */
+/* line 22, ../sass/components/conversation.scss */
 .conversation .conversation__item .extra {
   position: relative;
   width: 23.33333%;
   float: left;
 }
-/* line 78, ../sass/components/conversation.scss */
+/* line 26, ../sass/components/conversation.scss */
 .conversation .conversation__item .extra img {
   display: inline;
 }
-/* line 81, ../sass/components/conversation.scss */
+/* line 29, ../sass/components/conversation.scss */
 .conversation .conversation__item .extra i {
   position: absolute;
   right: 15%;
@@ -457,43 +662,47 @@ ul.nav.nav--custom li.nav__item a {
   display: inline;
   color: #e5e5e5;
 }
-/* line 90, ../sass/components/conversation.scss */
+/* line 38, ../sass/components/conversation.scss */
 .conversation .conversation__item .main {
   position: relative;
   min-height: 65px;
   font-size: 13px;
 }
-/* line 94, ../sass/components/conversation.scss */
+/* line 42, ../sass/components/conversation.scss */
 .conversation .conversation__item .main p {
   color: darkgrey;
   font-size: 12px;
   margin: 3px 0;
 }
-/* line 99, ../sass/components/conversation.scss */
+/* line 47, ../sass/components/conversation.scss */
 .conversation .conversation__item .main a.object {
   color: #006699;
   font-weight: bold;
 }
-/* line 103, ../sass/components/conversation.scss */
+/* line 51, ../sass/components/conversation.scss */
 .conversation .conversation__item .main a.person {
   color: #313132;
   font-weight: bold;
 }
-/* line 110, ../sass/components/conversation.scss */
+/* line 57, ../sass/components/conversation.scss */
+.conversation.conversation--small {
+  padding: 0;
+}
+/* line 59, ../sass/components/conversation.scss */
 .conversation.conversation--small .conversation__item {
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 113, ../sass/components/conversation.scss */
+/* line 62, ../sass/components/conversation.scss */
 .conversation.conversation--small .conversation__item .extra {
   width: 30%;
   font-size: 14px;
 }
-/* line 116, ../sass/components/conversation.scss */
+/* line 65, ../sass/components/conversation.scss */
 .conversation.conversation--small .conversation__item .extra i {
   display: none;
 }
-/* line 123, ../sass/components/conversation.scss */
+/* line 72, ../sass/components/conversation.scss */
 .conversation .conversation__item:last-child {
   border-bottom: 0;
 }

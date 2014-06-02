@@ -1,23 +1,27 @@
 //grids
+
 $grid: g;
 $offset: o;
 $grid-width: 960px;
 $grids: 12;
 $gutter: 20px;//20px strony w pierwszym 
 $border: 1px; //1 px
+$fluid-gutter: (1/48)*100%;
 @for $i from 1 through 12 {
 	.#{$grid}#{$i}{
 		width: ($i/12)*$grid-width; 
 		display:block;
 		float: left;
-		&.#{$grid}--clear {
-			padding: 0;
-			width: ($i/12)*960px;
-		}
+		
 		.g__content{
 			padding-left: 20px;
 			padding-right: 20px;
 			width: ($i/12)*$grid-width - 2*$gutter - 2*$border;
+		}
+		
+		&.#{$grid}--clear {
+			padding: 0;
+			width: ($i/12)*960px;
 		}
 	}
 }
@@ -27,4 +31,22 @@ $border: 1px; //1 px
 	padding: 0;
 	display:block;
 	height: auto;
+}
+@media only screen and (max-width : 959px){
+	@for $i from 1 through 12 {
+	.#{$grid}#{$i}{
+		width: 100%;
+		clear: both;
+		.g__content{
+			padding-left: $fluid-gutter;
+			padding-right: $fluid-gutter;
+			width: 100% - 2*$fluid-gutter;
+		}
+		
+		&.#{$grid}--clear {
+			padding: 0;
+			width: ($i/12)*960px;
+		}
+	}
+}
 }
