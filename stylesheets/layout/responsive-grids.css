@@ -1,430 +1,107 @@
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g1 {
-  width: 80px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g1 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 38px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g1.g--clear {
-  padding: 0;
-  width: 80px;
-}
+/*
+Syntax error: Undefined mixin 'box-sizing'.
+        on line 45 of c:/wamp/www/edu/moterail/sass/layout/responsive-grids.scss, in `box-sizing'
+        from line 45 of c:/wamp/www/edu/moterail/sass/layout/responsive-grids.scss
 
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g2 {
-  width: 160px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g2 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 118px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g2.g--clear {
-  padding: 0;
-  width: 160px;
-}
-
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g3 {
-  width: 240px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g3 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 198px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g3.g--clear {
-  padding: 0;
-  width: 240px;
-}
-
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g4 {
-  width: 320px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g4 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 278px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g4.g--clear {
-  padding: 0;
-  width: 320px;
-}
-
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g5 {
-  width: 400px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g5 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 358px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g5.g--clear {
-  padding: 0;
-  width: 400px;
-}
-
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g6 {
-  width: 480px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g6 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 438px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g6.g--clear {
-  padding: 0;
-  width: 480px;
-}
-
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g7 {
-  width: 560px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g7 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 518px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g7.g--clear {
-  padding: 0;
-  width: 560px;
-}
-
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g8 {
-  width: 640px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g8 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 598px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g8.g--clear {
-  padding: 0;
-  width: 640px;
-}
-
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g9 {
-  width: 720px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g9 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 678px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g9.g--clear {
-  padding: 0;
-  width: 720px;
-}
-
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g10 {
-  width: 800px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g10 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 758px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g10.g--clear {
-  padding: 0;
-  width: 800px;
-}
-
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g11 {
-  width: 880px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g11 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 838px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g11.g--clear {
-  padding: 0;
-  width: 880px;
-}
-
-/* line 11, ../../sass/layout/responsive-grids.scss */
-.g12 {
-  width: 960px;
-  display: block;
-  float: left;
-}
-/* line 16, ../../sass/layout/responsive-grids.scss */
-.g12 .g__content {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 918px;
-}
-/* line 22, ../../sass/layout/responsive-grids.scss */
-.g12.g--clear {
-  padding: 0;
-  width: 960px;
-}
-
-/* line 28, ../../sass/layout/responsive-grids.scss */
-.layout {
-  max-width: 960px;
-  margin: 18px auto;
-  padding: 0;
-  display: block;
-  height: auto;
-}
-
-@media only screen and (max-width: 959px) {
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g1 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g1 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g1.g--clear {
-    padding: 0;
-    width: 80px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g2 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g2 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g2.g--clear {
-    padding: 0;
-    width: 160px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g3 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g3 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g3.g--clear {
-    padding: 0;
-    width: 240px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g4 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g4 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g4.g--clear {
-    padding: 0;
-    width: 320px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g5 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g5 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g5.g--clear {
-    padding: 0;
-    width: 400px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g6 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g6 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g6.g--clear {
-    padding: 0;
-    width: 480px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g7 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g7 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g7.g--clear {
-    padding: 0;
-    width: 560px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g8 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g8 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g8.g--clear {
-    padding: 0;
-    width: 640px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g9 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g9 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g9.g--clear {
-    padding: 0;
-    width: 720px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g10 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g10 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g10.g--clear {
-    padding: 0;
-    width: 800px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g11 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g11 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g11.g--clear {
-    padding: 0;
-    width: 880px;
-  }
-
-  /* line 37, ../../sass/layout/responsive-grids.scss */
-  .g12 {
-    width: 100%;
-    clear: both;
-  }
-  /* line 40, ../../sass/layout/responsive-grids.scss */
-  .g12 .g__content {
-    padding-left: 2.08333%;
-    padding-right: 2.08333%;
-    width: 95.83333%;
-  }
-  /* line 46, ../../sass/layout/responsive-grids.scss */
-  .g12.g--clear {
-    padding: 0;
-    width: 960px;
-  }
-}
+Backtrace:
+c:/wamp/www/edu/moterail/sass/layout/responsive-grids.scss:45:in `box-sizing'
+c:/wamp/www/edu/moterail/sass/layout/responsive-grids.scss:45
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:188:in `block (3 levels) in visit_for'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:188:in `map'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:188:in `block (2 levels) in visit_for'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:185:in `each'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:185:in `map'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:185:in `block in visit_for'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:184:in `visit_for'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:362:in `visit_media'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/bin/compass:44:in `call'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
+c:/Ruby193/bin/compass:23:in `load'
+c:/Ruby193/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'box-sizing'.\A         on line 45 of c:/wamp/www/edu/moterail/sass/layout/responsive-grids.scss, in `box-sizing'\A         from line 45 of c:/wamp/www/edu/moterail/sass/layout/responsive-grids.scss"; }

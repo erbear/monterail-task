@@ -6,7 +6,10 @@
 		border-top: 1px solid $sidebar-image-top-border;
 		border-bottom: 1px solid $sidebar-image-bottom-border;
 		width: 100%;
+		max-width: 320px;
 		position:relative;
+		margin-left: auto;
+		margin-right: auto;
 		img {
 			width: 100%;
 			display: block;
@@ -24,6 +27,7 @@
 		}
 	}
 	.sidebar__main{
+		width: auto;
 		&>header {
 			margin-top: 30px;
 			padding-bottom: 15px;

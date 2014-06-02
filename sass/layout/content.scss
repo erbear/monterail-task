@@ -6,6 +6,7 @@ $header-height: 66px;
 .layout{
 	background-color:  $sidebar-background;
 	overflow: auto;
+	@include box-sizing(border-box);
 }
 .content {
 	background-color: $content-background;

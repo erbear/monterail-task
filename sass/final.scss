@@ -1,7 +1,6 @@
 @import "globals/colors";
 @import "globals/fonts";
 @import "globals/globals";
-@import "layout/responsive-grids";
 @import "layout/layout";
 @import "layout/content";
 @import "layout/sidebar";
@@ -15,4 +14,6 @@
 @import "fonts/css/fontello-ie7.css";
 @import "fonts/css/fontello.css";
 
-@import "plugins/normalize.css/normalize.css"
+@import "plugins/normalize.css/normalize.css";
+@import "layout/responsive-grids";
+

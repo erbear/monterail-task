@@ -32,21 +32,36 @@ $fluid-gutter: (1/48)*100%;
 	display:block;
 	height: auto;
 }
-@media only screen and (max-width : 959px){
+@media only screen and (max-width : 977px){
 	@for $i from 1 through 12 {
-	.#{$grid}#{$i}{
-		width: 100%;
-		clear: both;
-		.g__content{
-			padding-left: $fluid-gutter;
-			padding-right: $fluid-gutter;
-			width: 100% - 2*$fluid-gutter;
-		}
-		
-		&.#{$grid}--clear {
-			padding: 0;
-			width: ($i/12)*960px;
+		.#{$grid}#{$i}{
+			width: 100%;
+			min-width: 320px;
+			clear: both;
+			.g__content{
+				padding-left: $fluid-gutter;
+				padding-right: $fluid-gutter;
+				width: 100%;
+				@include box-sizing(border-box);
+			}
+			
+			&.#{$grid}--clear {
+				padding: 0;
+				width: ($i/12)*960px;
+			}
 		}
 	}
+	.lg-only{
+		display: none!important;
+	}
 }
+@media only screen and (max-width : 640px){
+	.not-md{
+		display: none!important;
+	}
+}
+@media only screen and (max-width : 320px){
+	.not-md{
+		display: none!important;
+	}
 }
