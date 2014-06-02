@@ -1,0 +1,128 @@
+!!!
+%html
+  %head
+    %meta{charset: "UTF-8"}/
+    %meta{content: "width=device-width, minimum-scale=1.0", name: "viewport"}/
+    %title Monterail Task
+    %link{href: "css/final.css", rel: "stylesheet", type: "text/css"}/
+    %link{href: "http://fonts.googleapis.com/css?family=Open+Sans:300,600,400&subset=latin,greek-ext,cyrillic-ext,greek,vietnamese,latin-ext,cyrillic", rel: "stylesheet", type: "text/css"}/
+  %body
+    .layout
+      .content.g8
+        .content__header.g__content.separator--custom.content__header--top-border
+          %ul.nav.nav--custom
+            %li.nav__item.active{title: "Aktywność"}
+              %a{href: "#"}
+                %i.icon-eye
+                %span.md Aktywność
+            %li.nav__item{title: "Sprawdzone przeze mnie"}
+              %a{href: "#"}
+                %i.icon-ok-circle
+                %span.md Sprawdzone przeze mnie
+            %li.nav__item{title: "Ustawienia"}
+              %a{href: "#"}
+                %i.icon-cog
+                %span.md Ustawienia
+        .content__main.g__content
+          %ul.conversation
+            %header Lista zmian, które zaszły w zabytkach dodanych i adoptowanych przez Ciebie:
+            %li.conversation__item
+              .extra.sm
+                %img.img-thumbnail{src: "images/im2.jpg"}/
+                %i.icon-ok-circle.lg
+              .main
+                %p wczoraj
+                %a.object{href: "#"} Most Grunwaldzki
+                został oznaczony jako
+                .badge--checked SPRAWDZONY
+            %li.conversation__item
+              .extra.sm
+                %img.img-thumbnail{src: "images/im2.jpg"}/
+                %i.icon-pencil.lg
+              .main
+                %p 2 dni temu
+                %a.object{href: "#"} Most Grunwaldzki
+                został zmodyfikowany przez:
+                %a.person{href: "#"} szymon
+            %li.conversation__item
+              .extra.sm
+                %img.img-thumbnail{src: "images/empty.jpg"}/
+                %i.icon-pencil.lg
+              .main
+                %p tydzień temu
+                %a.object{href: "#"} Most Grunwaldzki
+                został zmodyfikowany przez:
+                %a.person{href: "#"} katarzyna
+            %li.conversation__item.conversation__item--type1
+              .extra.sm
+                %img.img-thumbnail{src: "images/img1.jpg"}/
+                %i.icon-eye.lg
+              .main
+                %p> tydzień temu
+                adoptowano
+                %a.object{href: "#"} Budynek Urzędu Wojewódzkiego we Wrocławiu
+            %li.conversation__item
+              .extra.sm
+                %img.img-thumbnail{src: "images/empty.jpg"}/
+                %i.icon-pencil.lg
+              .main
+                %p> 2 tygodnie temu
+                modyfikowano
+                %a.object{href: "#"} Most Grunwaldzki
+            %li.conversation__item
+              .extra.sm
+                %img.img-thumbnail{src: "images/empty.jpg"}/
+                %i.icon-pencil.lg
+              .main
+                %p miesiąc temu
+                %a.object{href: "#"} Most Grunwaldzki
+                został zmodyfikowany przez:
+                %a.person{href: "#"} katarzyna
+            %li.conversation__item.conversation__item--type2
+              .extra.sm
+                %img.img-thumbnail{src: "images/empty.jpg"}/
+                %i.icon-plus-circled.lg
+              .main
+                %p> 6 października
+                dodano
+                %a.object{href: "#"} Most Grunwaldzki
+            %footer
+              Jesteś przy ostatniej wiadomości.
+      .sidebar.g4
+        .sidebar__img.separator.sm
+          %img.separator{src: "images/avatar.jpg"}/
+          %p dominik
+        .sidebar__main
+          %header.g__content
+            Dodane zabytki
+            .badge-counter 4
+          %article
+            %ul.conversation.conversation--small
+              %li.conversation__item.g__content
+                .extra.sm
+                  %img.img-thumbnail{src: "images/im2.jpg"}/
+                .main
+                  %a.object{href: "#"} Most Grunwaldzki
+                  %p
+                  .badge--checked SPRAWDZONY
+              %li.conversation__item.g__content
+                .extra.sm
+                  %img.img-thumbnail{src: "images/img4.jpg"}/
+                .main
+                  %a.object{href: "#"} Sky Tower
+                  %p
+                  .badge--unchecked NIESPRAWDZONY
+              %li.conversation__item.g__content
+                .extra.sm
+                  %img.img-thumbnail{src: "images/img3.jpg"}/
+                .main
+                  %a.object{href: "#"} Katedra Wrocławska
+                  %p
+                  .badge--checked SPRAWDZONY
+              %li.conversation__item.g__content
+                .extra.sm
+                  %img.img-thumbnail{src: "images/empty.jpg"}/
+                .main
+                  %a.object{href: "#"} Panorama Racławicka
+                  %p
+                  .badge--unchecked NIESPRAWDZONY
