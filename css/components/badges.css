@@ -1,0 +1,52 @@
+/* line 16, ../../sass/components/badges.scss */
+.badge--unchecked {
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset -1px 1px 4px #999999;
+  -moz-box-shadow: inset -1px 1px 4px #999999;
+  box-shadow: inset -1px 1px 4px #999999;
+  text-shadow: 1px 1px 3px #aaaaaa;
+  font-size: 11px;
+  padding: 2px 6px;
+  color: #fff;
+  background-color: #b5b6b8;
+  font-weight: bold;
+}
+
+/* line 19, ../../sass/components/badges.scss */
+.badge--checked {
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset -1px 1px 4px #999999;
+  -moz-box-shadow: inset -1px 1px 4px #999999;
+  box-shadow: inset -1px 1px 4px #999999;
+  text-shadow: 1px 1px 3px #aaaaaa;
+  font-size: 11px;
+  padding: 2px 6px;
+  color: #fff;
+  background-color: #f6ba90;
+  font-weight: bold;
+}
+
+/* line 22, ../../sass/components/badges.scss */
+.badge-counter {
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #dce4e8;
+  padding: 2px 6px;
+  font-size: 12px;
+  color: #236282;
+  font-weight: bold;
+}

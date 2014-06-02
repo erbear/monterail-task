@@ -1,0 +1,57 @@
+/* line 5, ../../sass/components/conversation.scss */
+.conversation {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/* line 8, ../../sass/components/conversation.scss */
+.conversation p.conversation__header, .conversation p.conversation__footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #999999;
+}
+/* line 13, ../../sass/components/conversation.scss */
+.conversation li.conversation__item {
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+/* line 17, ../../sass/components/conversation.scss */
+.conversation li.conversation__item:last-child {
+  border-bottom: 0;
+}
+/* line 19, ../../sass/components/conversation.scss */
+.conversation li.conversation__item:last-child img, .conversation li.conversation__item:last-child i {
+  visibility: hidden;
+}
+/* line 23, ../../sass/components/conversation.scss */
+.conversation li.conversation__item img, .conversation li.conversation__item i, .conversation li.conversation__item span {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 27, ../../sass/components/conversation.scss */
+.conversation li.conversation__item i {
+  padding: 20px;
+  color: #e5e5e5;
+}
+/* line 31, ../../sass/components/conversation.scss */
+.conversation li.conversation__item span {
+  position: relative;
+  top: -13px;
+  font-size: 13px;
+}
+/* line 35, ../../sass/components/conversation.scss */
+.conversation li.conversation__item span p {
+  color: darkgrey;
+  font-size: 12px;
+  margin: 5px 0;
+}
+/* line 40, ../../sass/components/conversation.scss */
+.conversation li.conversation__item span a.object {
+  color: #006699;
+  font-weight: bold;
+}
+/* line 44, ../../sass/components/conversation.scss */
+.conversation li.conversation__item span a.person {
+  color: #313132;
+  font-weight: bold;
+}
