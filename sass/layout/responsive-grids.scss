@@ -16,7 +16,7 @@ $fluid-gutter: (1/48)*100%;
 		.g__content{
 			padding-left: 20px;
 			padding-right: 20px;
-			width: ($i/12)*$grid-width - 2*$gutter - 2*$border;
+			width: ($i/12)*$grid-width - 2*$gutter;
 		}
 		
 		&.#{$grid}--clear {
@@ -32,12 +32,12 @@ $fluid-gutter: (1/48)*100%;
 	display:block;
 	height: auto;
 }
+//tablets
 @media only screen and (max-width : 977px){
 	@for $i from 1 through 12 {
 		.#{$grid}#{$i}{
-			width: 100%;
-			min-width: 320px;
-			clear: both;
+			width: ($i/12)*100%;
+			@include box-sizing(border-box);
 			.g__content{
 				padding-left: $fluid-gutter;
 				padding-right: $fluid-gutter;
@@ -51,17 +51,25 @@ $fluid-gutter: (1/48)*100%;
 			}
 		}
 	}
-	.lg-only{
+	.lg{
 		display: none!important;
 	}
 }
-@media only screen and (max-width : 640px){
-	.not-md{
+//phones
+@media only screen and (max-width : 768px){
+	@for $i from 1 through 12 {
+		.#{$grid}#{$i}{
+			width: 100%;
+			clear: both;
+			min-width: 320px;
+		}
+	}
+	.md{
 		display: none!important;
 	}
 }
 @media only screen and (max-width : 320px){
-	.not-md{
+	.sm{
 		display: none!important;
 	}
 }

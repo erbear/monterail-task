@@ -1,15 +1,15 @@
-/* line 4, ../../sass/components/conversation.scss */
+/* line 3, ../../sass/components/conversation.scss */
 .conversation {
   padding: 20px 0;
 }
-/* line 6, ../../sass/components/conversation.scss */
+/* line 5, ../../sass/components/conversation.scss */
 .conversation > header {
   margin: 30px 0;
   font-size: 12px;
   color: #999999;
   width: 100%;
 }
-/* line 12, ../../sass/components/conversation.scss */
+/* line 11, ../../sass/components/conversation.scss */
 .conversation > footer {
   margin-left: 23.33333%;
   font-size: 12px;
@@ -17,72 +17,72 @@
   padding-top: 13px;
   padding-left: 2%;
 }
-/* line 19, ../../sass/components/conversation.scss */
+/* line 18, ../../sass/components/conversation.scss */
 .conversation .conversation__item {
   padding: 15px 10px 10px 10px;
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 22, ../../sass/components/conversation.scss */
+/* line 21, ../../sass/components/conversation.scss */
 .conversation .conversation__item .extra {
   position: relative;
   float: left;
   overflow: visible;
 }
-/* line 26, ../../sass/components/conversation.scss */
+/* line 25, ../../sass/components/conversation.scss */
 .conversation .conversation__item .extra img {
   display: inline;
   float: left;
 }
-/* line 30, ../../sass/components/conversation.scss */
+/* line 29, ../../sass/components/conversation.scss */
 .conversation .conversation__item .extra i {
   position: relative;
   display: block;
-  margin: 0 20px;
+  margin: 0 15px 0 20px;
   top: 23px;
   display: inline;
   color: #e5e5e5;
 }
-/* line 39, ../../sass/components/conversation.scss */
+/* line 38, ../../sass/components/conversation.scss */
 .conversation .conversation__item .main {
   position: relative;
   min-height: 65px;
   font-size: 13px;
   left: 7px;
 }
-/* line 44, ../../sass/components/conversation.scss */
+/* line 43, ../../sass/components/conversation.scss */
 .conversation .conversation__item .main p {
   color: darkgrey;
   font-size: 12px;
   margin: 3px 0;
 }
-/* line 49, ../../sass/components/conversation.scss */
+/* line 48, ../../sass/components/conversation.scss */
 .conversation .conversation__item .main a.object {
   color: #006699;
   font-weight: bold;
 }
-/* line 53, ../../sass/components/conversation.scss */
+/* line 52, ../../sass/components/conversation.scss */
 .conversation .conversation__item .main a.person {
   color: #313132;
   font-weight: bold;
 }
-/* line 59, ../../sass/components/conversation.scss */
+/* line 58, ../../sass/components/conversation.scss */
 .conversation.conversation--small {
   padding: 0;
 }
-/* line 61, ../../sass/components/conversation.scss */
+/* line 60, ../../sass/components/conversation.scss */
 .conversation.conversation--small .conversation__item {
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 64, ../../sass/components/conversation.scss */
+/* line 63, ../../sass/components/conversation.scss */
 .conversation.conversation--small .conversation__item .extra {
   font-size: 14px;
 }
-/* line 66, ../../sass/components/conversation.scss */
+/* line 65, ../../sass/components/conversation.scss */
 .conversation.conversation--small .conversation__item .extra i {
   display: none;
 }
-/* line 73, ../../sass/components/conversation.scss */
+/* line 72, ../../sass/components/conversation.scss */
 .conversation .conversation__item:last-child {
   border-bottom: 0;
 }

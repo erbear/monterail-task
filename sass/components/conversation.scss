@@ -1,6 +1,5 @@
 @import "../globals/colors";
 
-$padding-left: 10px;
 .conversation {
 	padding: 20px 0;
 	&>header{
@@ -30,7 +29,7 @@ $padding-left: 10px;
 			i{
 				position: relative;
 				display: block;
-				margin: 0 20px;
+				margin: 0 15px 0 20px;
 				top: 23px;
 				display: inline;
 				color: $conversation-icon;
