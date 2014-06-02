@@ -1,0 +1,224 @@
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g1 {
+  width: 80px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g1.g--clear {
+  padding: 0;
+  width: 80px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g1 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 38px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g2 {
+  width: 160px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g2.g--clear {
+  padding: 0;
+  width: 160px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g2 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 118px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g3 {
+  width: 240px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g3.g--clear {
+  padding: 0;
+  width: 240px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g3 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 198px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g4 {
+  width: 320px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g4.g--clear {
+  padding: 0;
+  width: 320px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g4 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 278px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g5 {
+  width: 400px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g5.g--clear {
+  padding: 0;
+  width: 400px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g5 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 358px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g6 {
+  width: 480px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g6.g--clear {
+  padding: 0;
+  width: 480px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g6 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 438px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g7 {
+  width: 560px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g7.g--clear {
+  padding: 0;
+  width: 560px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g7 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 518px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g8 {
+  width: 640px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g8.g--clear {
+  padding: 0;
+  width: 640px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g8 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 598px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g9 {
+  width: 720px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g9.g--clear {
+  padding: 0;
+  width: 720px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g9 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 678px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g10 {
+  width: 800px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g10.g--clear {
+  padding: 0;
+  width: 800px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g10 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 758px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g11 {
+  width: 880px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g11.g--clear {
+  padding: 0;
+  width: 880px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g11 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 838px;
+}
+
+/* line 9, ../../sass/layout/responsive-grids.scss */
+.g12 {
+  width: 960px;
+  display: block;
+  float: left;
+}
+/* line 13, ../../sass/layout/responsive-grids.scss */
+.g12.g--clear {
+  padding: 0;
+  width: 960px;
+}
+/* line 17, ../../sass/layout/responsive-grids.scss */
+.g12 .g__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 918px;
+}
+
+/* line 24, ../../sass/layout/responsive-grids.scss */
+.layout {
+  max-width: 960px;
+  margin: 18px auto;
+  padding: 0;
+  display: block;
+  height: auto;
+}
