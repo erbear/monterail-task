@@ -10,6 +10,8 @@ $grids: 12;
 
 $gutter: 20px;//only in large size
 
+$border: 1px;
+
 $fluid-gutter: (1/48)*100%;//in all other sizes
 
 //makes grids with width size = index*80px
@@ -22,7 +24,7 @@ $fluid-gutter: (1/48)*100%;//in all other sizes
 		.g__content{
 			padding-left: $gutter;
 			padding-right: $gutter;
-			width: ($i/12)*$layout-width - 2*$gutter;
+			width: ($i/12)*$layout-width - 2*$gutter - 2*$border;
 		}
 	}
 }
@@ -44,7 +46,6 @@ $very-small: 320px;
 	@for $i from 1 through 12 {
 		.#{$grid-prefix}#{$i}{
 			width: ($i/12)*100%;
-			@include box-sizing(border-box);
 			.g__content{
 				padding-left: $fluid-gutter;
 				padding-right: $fluid-gutter;

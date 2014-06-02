@@ -2,6 +2,8 @@
 @import "../globals/colors";
 
 .sidebar{
+
+	@include box-sizing(border-box);
 	.sidebar__img{
 		border-top: 1px solid $sidebar-image-top-border;
 		border-bottom: 1px solid $sidebar-image-bottom-border;
