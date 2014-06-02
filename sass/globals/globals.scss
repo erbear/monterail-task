@@ -1,16 +1,15 @@
 @import "colors";
 @import "compass";
+
 body {
 	background-color: $body-background;
+	font-family: 'Open Sans', sans-serif;
 }
 
 ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	li {
-		list-style: none;
-	}
 }
 .img-thumbnail{
 	padding: 4px;
@@ -19,6 +18,21 @@ ul{
 	@include box-shadow(#aaaaaa 0px 0px 10px);
 }
 a{
-	color:#000;
 	text-decoration: none;
 }
+.separator:after{
+	position: absolute;
+	content:" ";
+	top: 100%;
+	width:100%;
+    display:block;
+    border-bottom: 3px solid $separator;
+    z-index: 10;
+}
+.separator--custom:after {
+	@extend .separator;
+    margin-top: 1px;
+    left: -1px;
+    padding: 0 1px;
+}
+

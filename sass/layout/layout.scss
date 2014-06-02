@@ -1,11 +1,6 @@
 @import "../globals/colors";
 
 .page {
-	max-width: 960px;
-	margin: 18px auto;
-	padding: 0;
-	display:block;
-	height: auto;
 	background-color: $sidebar-background;
 	font-family: 'Open Sans', sans-serif;
 }

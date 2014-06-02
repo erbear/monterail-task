@@ -1,17 +1,7 @@
 @import "../globals/colors";
 @import "compass";
+@import "../globals/functions";
 
-@mixin badge($bg-color) {
-	display: inline-block;
-	@include border-radius(4px);
-	@include single-box-shadow(#999999, -1px, 1px, 4px, false, true);
-	@include single-text-shadow(1px,1px,3px);
-	font-size: 11px;
-	padding: 2px 6px;
-	color: #fff;
-	background-color: $bg-color;
-	font-weight: bold;
-}
 
 .badge--unchecked{
 	@include badge($badge-unchecked-background);

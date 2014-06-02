@@ -1,57 +1,112 @@
-/* line 5, ../../sass/components/conversation.scss */
+/* line 4, ../../sass/components/conversation.scss */
 .conversation {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 20px 0;
 }
-/* line 8, ../../sass/components/conversation.scss */
-.conversation p.conversation__header, .conversation p.conversation__footer {
-  font-family: 'Open Sans', sans-serif;
+/* line 6, ../../sass/components/conversation.scss */
+.conversation > header {
+  margin: 30px 0;
   font-size: 12px;
   color: #999999;
+  width: 100%;
 }
-/* line 13, ../../sass/components/conversation.scss */
-.conversation li.conversation__item {
-  border-bottom: 1px solid #e5e5e5;
+/* line 12, ../../sass/components/conversation.scss */
+.conversation > footer {
+  margin-left: 23.33333%;
+  font-size: 12px;
+  color: #999999;
   padding-top: 13px;
-  padding-bottom: 13px;
-}
-/* line 17, ../../sass/components/conversation.scss */
-.conversation li.conversation__item:last-child {
-  border-bottom: 0;
+  padding-left: 2%;
 }
 /* line 19, ../../sass/components/conversation.scss */
-.conversation li.conversation__item:last-child img, .conversation li.conversation__item:last-child i {
-  visibility: hidden;
+.conversation .conversation__item {
+  padding: 15px 10px 10px 10px;
+  border-bottom: 1px solid #e5e5e5;
 }
-/* line 23, ../../sass/components/conversation.scss */
-.conversation li.conversation__item img, .conversation li.conversation__item i, .conversation li.conversation__item span {
-  display: inline-block;
-  vertical-align: middle;
+/* line 22, ../../sass/components/conversation.scss */
+.conversation .conversation__item .extra {
+  float: left;
+  overflow: visible;
 }
-/* line 27, ../../sass/components/conversation.scss */
-.conversation li.conversation__item i {
-  padding: 20px;
+/* line 25, ../../sass/components/conversation.scss */
+.conversation .conversation__item .extra img {
+  float: left;
+}
+/* line 28, ../../sass/components/conversation.scss */
+.conversation .conversation__item .extra i {
+  font-size: 15px;
+  position: relative;
+  display: block;
+  margin: 0 15px 0 20px;
+  top: 23px;
+  display: inline;
   color: #e5e5e5;
 }
-/* line 31, ../../sass/components/conversation.scss */
-.conversation li.conversation__item span {
+/* line 38, ../../sass/components/conversation.scss */
+.conversation .conversation__item .main {
   position: relative;
-  top: -13px;
+  min-height: 65px;
   font-size: 13px;
+  left: 7px;
 }
-/* line 35, ../../sass/components/conversation.scss */
-.conversation li.conversation__item span p {
+/* line 43, ../../sass/components/conversation.scss */
+.conversation .conversation__item .main p {
   color: darkgrey;
   font-size: 12px;
-  margin: 5px 0;
+  margin: 3px 0;
 }
-/* line 40, ../../sass/components/conversation.scss */
-.conversation li.conversation__item span a.object {
+/* line 48, ../../sass/components/conversation.scss */
+.conversation .conversation__item .main a {
+  font-weight: bold;
+}
+/* line 50, ../../sass/components/conversation.scss */
+.conversation .conversation__item .main a.object {
   color: #006699;
-  font-weight: bold;
 }
-/* line 44, ../../sass/components/conversation.scss */
-.conversation li.conversation__item span a.person {
+/* line 18, ../../sass/globals/functions.scss */
+.conversation .conversation__item .main a.object:hover {
+  color: #00aaff;
+}
+/* line 53, ../../sass/components/conversation.scss */
+.conversation .conversation__item .main a.person {
   color: #313132;
-  font-weight: bold;
+}
+/* line 18, ../../sass/globals/functions.scss */
+.conversation .conversation__item .main a.person:hover {
+  color: #636366;
+}
+/* line 58, ../../sass/components/conversation.scss */
+.conversation .conversation__item.conversation__item--type1 {
+  background-color: #fffde8;
+}
+/* line 60, ../../sass/components/conversation.scss */
+.conversation .conversation__item.conversation__item--type1 i {
+  color: #e8db9d;
+}
+/* line 64, ../../sass/components/conversation.scss */
+.conversation .conversation__item.conversation__item--type2 {
+  background-color: #e9fde9;
+}
+/* line 66, ../../sass/components/conversation.scss */
+.conversation .conversation__item.conversation__item--type2 i {
+  color: #a3d690;
+}
+/* line 71, ../../sass/components/conversation.scss */
+.conversation.conversation--small {
+  padding: 0;
+}
+/* line 73, ../../sass/components/conversation.scss */
+.conversation.conversation--small .conversation__item {
+  padding-bottom: auto 20px;
+}
+/* line 75, ../../sass/components/conversation.scss */
+.conversation.conversation--small .conversation__item .extra {
+  font-size: 14px;
+}
+/* line 77, ../../sass/components/conversation.scss */
+.conversation.conversation--small .conversation__item .extra i {
+  display: none;
+}
+/* line 85, ../../sass/components/conversation.scss */
+.conversation .conversation__item:last-child {
+  border-bottom: 0;
 }

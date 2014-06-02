@@ -1,38 +1,81 @@
+@import "compass";
+
 //grids
-$fluid-grid: flg;
-$fixed-grid: fxg;
-$offset: o;
+
+$grid-prefix: g;
+
+$layout-width: 960px;
+
 $grids: 12;
-$gutter-fluid: (1/48)*100%;
-$gutter-fixed: 20px;
+
+$gutter: 20px;//only in large size
+
+$border: 1px;
+
+$fluid-gutter: (1/48)*100%;//in all other sizes
+
+//makes grids with width size = index*80px
+//only g__content has gutters
 @for $i from 1 through 12 {
-	.#{$fixed-grid}#{$i}{
-		width: ($i/12)*960px-(2*$gutter-fixed); 
-		display: inline-block;
-		padding: 0 $gutter-fixed;
-		vertical-align: top;
-		&.#{$fixed-grid}--clear {
-			padding: 0;
-			width: ($i/12)*960px;
+	.#{$grid-prefix}#{$i}{
+		width: ($i/12)*$layout-width; 
+		display:block;
+		float: left;
+		.g__content{
+			padding-left: $gutter;
+			padding-right: $gutter;
+			width: ($i/12)*$layout-width - 2*$gutter - 2*$border;
 		}
 	}
-
 }
-@for $i from 1 through 12 {
-	.#{$fluid-grid}#{$i}{
-		width: ($i/12)*100%-(2*$gutter-fluid); 
-		display: inline-block;
-		padding: 0 $gutter-fluid;
-		vertical-align: top;
-		&.#{$fluid-grid}--clear {
-			padding: 0;
+
+.layout{
+	max-width: $layout-width;
+	margin: 18px auto;
+	padding: 0;
+}
+
+
+//responsive 
+$medium: 977px;
+$small: 768px;
+$very-small: 320px;
+
+//tablets
+@media only screen and (max-width : $medium){
+	@for $i from 1 through 12 {
+		.#{$grid-prefix}#{$i}{
 			width: ($i/12)*100%;
+			.g__content{
+				padding-left: $fluid-gutter;
+				padding-right: $fluid-gutter;
+				width: 100%;
+				@include box-sizing(border-box);
+			}
 		}
 	}
-
+	.lg{
+		display: none!important;
+	}
 }
-@for $i from 1 through 12 {
-	.#{$offset}#{$i}{
-		margin-left: ($i/12)*100%;
+
+//phones
+@media only screen and (max-width : $small){
+	@for $i from 1 through 12 {
+		.#{$grid-prefix}#{$i}{
+			width: 100%;
+			clear: both;
+			min-width: $very-small;
+		}
+	}
+	.md{
+		display: none!important;
+	}
+}
+
+//smaller phones
+@media only screen and (max-width : $very-small){
+	.sm{
+		display: none!important;
 	}
 }

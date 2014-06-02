@@ -1,4 +1,4 @@
-/* line 16, ../../sass/components/badges.scss */
+/* line 6, ../../sass/components/badges.scss */
 .badge--unchecked {
   display: inline-block;
   -webkit-border-radius: 4px;
@@ -12,12 +12,13 @@
   text-shadow: 1px 1px 3px #aaaaaa;
   font-size: 11px;
   padding: 2px 6px;
+  margin: 2px;
   color: #fff;
   background-color: #b5b6b8;
   font-weight: bold;
 }
 
-/* line 19, ../../sass/components/badges.scss */
+/* line 9, ../../sass/components/badges.scss */
 .badge--checked {
   display: inline-block;
   -webkit-border-radius: 4px;
@@ -31,12 +32,13 @@
   text-shadow: 1px 1px 3px #aaaaaa;
   font-size: 11px;
   padding: 2px 6px;
+  margin: 2px;
   color: #fff;
   background-color: #f6ba90;
   font-weight: bold;
 }
 
-/* line 22, ../../sass/components/badges.scss */
+/* line 12, ../../sass/components/badges.scss */
 .badge-counter {
   display: inline-block;
   -webkit-border-radius: 4px;
