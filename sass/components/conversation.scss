@@ -1,4 +1,5 @@
 @import "../globals/colors";
+@import "../globals/functions";
 
 .conversation {
 	padding: 20px 0;
@@ -19,14 +20,13 @@
 		padding: 15px 10px 10px 10px;
 		border-bottom: 1px solid $conversation-bottom-border;
 		.extra{
-			position: relative;
 			float:left;
 			overflow: visible;
 			img{
-				display: inline;
 				float: left;
 			}
 			i{
+				font-size: 15px;
 				position: relative;
 				display: block;
 				margin: 0 15px 0 20px;
@@ -45,21 +45,33 @@
 				font-size: 12px;
 				margin: 3px 0 ;
 			}
-			a.object{
-				color: $conversation-object-font;
+			a {
 				font-weight: bold;
+				&.object{
+					@include bgAndHoverColor($conversation-object-font);
+				}
+				&.person{
+					@include bgAndHoverColor($conversation-person-font);
+				}
 			}
-			a.person{
-				color: $conversation-person-font;
-				font-weight: bold;
+		}
+		&.conversation__item--type1 {
+			background-color: $conversation-type1;
+			i{
+				color: $conversation-type1-i;
+			}
+		}
+		&.conversation__item--type2 {
+			background-color: $conversation-type2;
+			i{
+				color: $conversation-type2-i;
 			}
 		}
 	}
 	&.conversation--small{
 		padding: 0;
 		.conversation__item{
-			padding-left: 20px;
-			padding-right: 20px;
+			padding-bottom: auto 20px;
 			.extra{
 				font-size: 14px;
 				i{
@@ -69,6 +81,7 @@
 		}
 
 	}
+
 	.conversation__item:last-child {
 		border-bottom: 0;
 	}

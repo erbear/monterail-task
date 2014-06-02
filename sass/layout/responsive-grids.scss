@@ -1,41 +1,48 @@
+@import "compass";
+
 //grids
 
-$grid: g;
-$offset: o;
-$grid-width: 960px;
+$grid-prefix: g;
+
+$layout-width: 960px;
+
 $grids: 12;
-$gutter: 20px;//20px strony w pierwszym 
-$border: 1px; //1 px
-$fluid-gutter: (1/48)*100%;
+
+$gutter: 20px;//only in large size
+
+$fluid-gutter: (1/48)*100%;//in all other sizes
+
+//makes grids with width size = index*80px
+//only g__content has gutters
 @for $i from 1 through 12 {
-	.#{$grid}#{$i}{
-		width: ($i/12)*$grid-width; 
+	.#{$grid-prefix}#{$i}{
+		width: ($i/12)*$layout-width; 
 		display:block;
 		float: left;
-		
 		.g__content{
-			padding-left: 20px;
-			padding-right: 20px;
-			width: ($i/12)*$grid-width - 2*$gutter;
-		}
-		
-		&.#{$grid}--clear {
-			padding: 0;
-			width: ($i/12)*960px;
+			padding-left: $gutter;
+			padding-right: $gutter;
+			width: ($i/12)*$layout-width - 2*$gutter;
 		}
 	}
 }
+
 .layout{
-	max-width: 960px;
+	max-width: $layout-width;
 	margin: 18px auto;
 	padding: 0;
-	display:block;
-	height: auto;
 }
+
+
+//responsive 
+$medium: 977px;
+$small: 768px;
+$very-small: 320px;
+
 //tablets
-@media only screen and (max-width : 977px){
+@media only screen and (max-width : $medium){
 	@for $i from 1 through 12 {
-		.#{$grid}#{$i}{
+		.#{$grid-prefix}#{$i}{
 			width: ($i/12)*100%;
 			@include box-sizing(border-box);
 			.g__content{
@@ -44,31 +51,29 @@ $fluid-gutter: (1/48)*100%;
 				width: 100%;
 				@include box-sizing(border-box);
 			}
-			
-			&.#{$grid}--clear {
-				padding: 0;
-				width: ($i/12)*960px;
-			}
 		}
 	}
 	.lg{
 		display: none!important;
 	}
 }
+
 //phones
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : $small){
 	@for $i from 1 through 12 {
-		.#{$grid}#{$i}{
+		.#{$grid-prefix}#{$i}{
 			width: 100%;
 			clear: both;
-			min-width: 320px;
+			min-width: $very-small;
 		}
 	}
 	.md{
 		display: none!important;
 	}
 }
-@media only screen and (max-width : 320px){
+
+//smaller phones
+@media only screen and (max-width : $very-small){
 	.sm{
 		display: none!important;
 	}
