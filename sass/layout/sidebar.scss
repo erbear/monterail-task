@@ -2,11 +2,16 @@
 @import "../globals/colors";
 
 .sidebar{
+
+	@include box-sizing(border-box);
 	.sidebar__img{
 		border-top: 1px solid $sidebar-image-top-border;
 		border-bottom: 1px solid $sidebar-image-bottom-border;
 		width: 100%;
+		max-width: 320px;
 		position:relative;
+		margin-left: auto;
+		margin-right: auto;
 		img {
 			width: 100%;
 			display: block;

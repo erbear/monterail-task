@@ -1,21 +1,17 @@
-/* line 3, ../../sass/globals/globals.scss */
+/* line 4, ../../sass/globals/globals.scss */
 body {
   background-color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 8, ../../sass/globals/globals.scss */
+/* line 9, ../../sass/globals/globals.scss */
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 12, ../../sass/globals/globals.scss */
-ul li {
-  list-style: none;
-}
 
-/* line 16, ../../sass/globals/globals.scss */
+/* line 14, ../../sass/globals/globals.scss */
 .img-thumbnail {
   padding: 4px;
   border: 1px solid #d4d4d4;
@@ -29,8 +25,25 @@ ul li {
   box-shadow: #aaaaaa 0px 0px 10px;
 }
 
-/* line 22, ../../sass/globals/globals.scss */
+/* line 20, ../../sass/globals/globals.scss */
 a {
-  color: #000;
   text-decoration: none;
+}
+
+/* line 23, ../../sass/globals/globals.scss */
+.separator:after, .separator--custom:after {
+  position: absolute;
+  content: " ";
+  top: 100%;
+  width: 100%;
+  display: block;
+  border-bottom: 3px solid #486a7c;
+  z-index: 10;
+}
+
+/* line 32, ../../sass/globals/globals.scss */
+.separator--custom:after {
+  margin-top: 1px;
+  left: -1px;
+  padding: 0 1px;
 }

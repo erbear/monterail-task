@@ -1,16 +1,25 @@
-/* line 5, ../../sass/layout/sidebar.scss */
+/* line 4, ../../sass/layout/sidebar.scss */
+.sidebar {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 7, ../../sass/layout/sidebar.scss */
 .sidebar .sidebar__img {
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #d3d5d6;
   width: 100%;
+  max-width: 320px;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 10, ../../sass/layout/sidebar.scss */
+/* line 15, ../../sass/layout/sidebar.scss */
 .sidebar .sidebar__img img {
   width: 100%;
   display: block;
 }
-/* line 14, ../../sass/layout/sidebar.scss */
+/* line 19, ../../sass/layout/sidebar.scss */
 .sidebar .sidebar__img p {
   position: absolute;
   right: 0px;
@@ -22,7 +31,7 @@
   font-weight: bold;
   text-shadow: 0px 0px 5px black;
 }
-/* line 27, ../../sass/layout/sidebar.scss */
+/* line 32, ../../sass/layout/sidebar.scss */
 .sidebar .sidebar__main > header {
   margin-top: 30px;
   padding-bottom: 15px;

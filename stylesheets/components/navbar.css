@@ -1,39 +1,38 @@
-/* line 38, ../../sass/components/navbar.scss */
+/* line 4, ../../sass/components/navbar.scss */
 ul.nav {
   list-style: none;
   height: 100%;
   width: 100%;
 }
-/* line 42, ../../sass/components/navbar.scss */
+/* line 8, ../../sass/components/navbar.scss */
 ul.nav li.nav__item {
   display: inline-block;
   position: relative;
   top: 30%;
 }
-/* line 46, ../../sass/components/navbar.scss */
+/* line 12, ../../sass/components/navbar.scss */
 ul.nav li.nav__item a {
   display: block;
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
   color: #313132;
 }
-/* line 54, ../../sass/components/navbar.scss */
+/* line 19, ../../sass/components/navbar.scss */
 ul.nav li.nav__item a:hover {
   color: #d11344;
 }
-/* line 58, ../../sass/components/navbar.scss */
+/* line 23, ../../sass/components/navbar.scss */
 ul.nav li.nav__item.active a {
   background-color: white;
 }
-/* line 64, ../../sass/components/navbar.scss */
+/* line 29, ../../sass/components/navbar.scss */
 ul.nav.nav--custom li.nav__item {
   height: 100%;
   top: 0;
 }
-/* line 68, ../../sass/components/navbar.scss */
+/* line 33, ../../sass/components/navbar.scss */
 ul.nav.nav--custom li.nav__item a {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
