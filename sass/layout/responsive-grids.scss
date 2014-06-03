@@ -29,7 +29,7 @@ $fluid-gutter: (1/48)*100%;//in all other sizes
 	}
 }
 
-.layout{
+.layout {
 	max-width: $layout-width;
 	margin: 18px auto;
 	padding: 0;
@@ -42,11 +42,11 @@ $small: 768px;
 $very-small: 320px;
 
 //tablets
-@media only screen and (max-width : $medium){
+@media only screen and (max-width : $medium) {
 	@for $i from 1 through 12 {
 		.#{$grid-prefix}#{$i}{
 			width: ($i/12)*100%;
-			.g__content{
+			.g__content {
 				padding-left: $fluid-gutter;
 				padding-right: $fluid-gutter;
 				width: 100%;
@@ -54,13 +54,13 @@ $very-small: 320px;
 			}
 		}
 	}
-	.lg{
+	.lg {
 		display: none!important;
 	}
 }
 
 //phones
-@media only screen and (max-width : $small){
+@media only screen and (max-width : $small) {
 	@for $i from 1 through 12 {
 		.#{$grid-prefix}#{$i}{
 			width: 100%;
@@ -68,14 +68,14 @@ $very-small: 320px;
 			min-width: $very-small;
 		}
 	}
-	.md{
+	.md {
 		display: none!important;
 	}
 }
 
 //smaller phones
 @media only screen and (max-width : $very-small){
-	.sm{
+	.sm {
 		display: none!important;
 	}
 }

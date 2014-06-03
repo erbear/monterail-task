@@ -9,7 +9,7 @@
 		color: $conversation-header-font;
 		width: 100%;
 	}
-	&>footer{
+	&>footer {
 		margin-left: (14/60)*100%;
 		font-size: 12px;
 		color: $conversation-header-font;
@@ -22,10 +22,10 @@
 		.extra{
 			float:left;
 			overflow: visible;
-			img{
+			img {
 				float: left;
 			}
-			i{
+			i {
 				font-size: 15px;
 				position: relative;
 				display: block;
@@ -40,7 +40,7 @@
 			min-height: 65px;
 			font-size: 13px;
 			left: 7px;
-			p{
+			p {
 				color: $conversation-time-font;
 				font-size: 12px;
 				margin: 3px 0 ;
@@ -68,11 +68,11 @@
 			}
 		}
 	}
-	&.conversation--small{
+	&.conversation--small {
 		padding: 0;
-		.conversation__item{
+		.conversation__item {
 			padding-bottom: auto 20px;
-			.extra{
+			.extra {
 				font-size: 14px;
 				i{
 					display: none;

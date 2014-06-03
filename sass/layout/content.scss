@@ -3,30 +3,31 @@
 
 $header-height: 66px;
 
-.layout{
-	background-color:  $sidebar-background;
+.layout {
+	background-color: $sidebar-background;
+	font-family: 'Open Sans', sans-serif;
 	overflow: auto;
 	@include box-sizing(border-box);
 }
 .content {
 	background-color: $content-background;
-	.content__header{
+	.content__header {
 		height: $header-height;
 		position:relative;
 		border: 1px solid $content-border;
 		@include background-image(linear-gradient(#f5f5f5, #eeeeee));
 	}
-	.content__header--top-border:before{
+	.content__header--top-border:before {
 		content:" ";
 		width:100%;
 	    display:block;
 	    border-top: 1px solid $header-second-top-border;
 	}
-	.content__main{
+	.content__main {
 		border: 1px solid $content-border;
 		border-top: 0;
 	}
-	.content__header--top-border:before{
+	.content__header--top-border:before {
 		content:" ";
 		width:100%;
 	    display:block;

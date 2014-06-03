@@ -4,7 +4,7 @@
 .sidebar{
 
 	@include box-sizing(border-box);
-	.sidebar__img{
+	.sidebar__img {
 		border-top: 1px solid $sidebar-image-top-border;
 		border-bottom: 1px solid $sidebar-image-bottom-border;
 		width: 100%;
@@ -16,7 +16,7 @@
 			width: 100%;
 			display: block;
 		}
-		p{
+		p {
 			position:absolute;
 			right: 0px;
 			bottom:0px;
@@ -28,7 +28,7 @@
 			@include single-text-shadow(0px,0px,5px, false, #000);
 		}
 	}
-	.sidebar__main{
+	.sidebar__main {
 		&>header {
 			margin-top: 30px;
 			padding-bottom: 15px;
@@ -37,5 +37,4 @@
 			border-bottom: 1px solid $header-bottom-border;
 		}
 	}
-	
 }
